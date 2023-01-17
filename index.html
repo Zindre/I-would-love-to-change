@@ -3,7 +3,14 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
     <script src="lib/ruffle/ruffle.js"></script>
-    <script>
+      <script>
+          window.RufflePlayer = window.RufflePlayer || {};
+          window.RufflePlayer.config = {
+              "autoplay": "on",
+              "unmuteOverlay": "hidden",
+          };   
+      </script>
+    <!-- script>
 	window.RufflePlayer = window.RufflePlayer || {};
 	window.RufflePlayer.config = {
 	// Options affecting the whole page
@@ -21,7 +28,7 @@
 	"maxExecutionDuration": {"secs": 15, "nanos": 0},
 	"logLevel": "error",
 	};
-	</script>
+	</script -->
 <title>Velkommen til SunKing Productions</title>
 
 <style type="text/css">
